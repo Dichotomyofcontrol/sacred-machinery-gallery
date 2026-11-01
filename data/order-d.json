@@ -1,8 +1,8 @@
 [
 [
-"L61r",
+"L61",
 "Three Little Moons",
-"Three pale faces, each with a small horned crescent and a red mark."
+"Three pale faces, each with a small crescent and a red mark."
 ],
 [
 "L62",
@@ -15,7 +15,7 @@
 "A red face before a great bronze disc."
 ],
 [
-"L64r",
+"L64",
 "Violet Pair",
 "Two red faces in violet hoods, crowned with silver crescents."
 ],
@@ -40,9 +40,14 @@
 "Three gold lines across a red face before a bronze disc."
 ],
 [
-"L69r",
+"L69",
 "The Violet Eye",
 "A violet oval ringed in silver under a crescent."
+],
+[
+"L69r",
+"The Violet Eye",
+"A violet velvet face with silver rings under a black lace veil."
 ],
 [
 "L70",
@@ -50,9 +55,14 @@
 "Three black faces marked with red crescents."
 ],
 [
-"L71r",
+"L71",
 "The Cracked Crown",
-"A face of cracked silver and a horned crescent at the brow."
+"A face of cracked silver and a crescent at the brow."
+],
+[
+"L71r",
+"The Cracked Face",
+"A face of cracked silver under a band of red beads."
 ],
 [
 "L72",

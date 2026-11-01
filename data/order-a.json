@@ -30,7 +30,7 @@
 "Two of the order in black, one struck with a red crescent."
 ],
 [
-"L07r",
+"L07",
 "The Horned Helm",
 "A steel helm with horns between two violet sisters."
 ],
@@ -40,9 +40,14 @@
 "A black glass face and a halo of deep blue velvet."
 ],
 [
-"L09r",
+"L09",
 "Porcelain and Garnet",
 "White porcelain beside red lacquer, both blindfolded in red."
+],
+[
+"L09r",
+"Porcelain and Garnet",
+"White porcelain beside red lacquer under a gold ring, both blindfolded in red."
 ],
 [
 "L10",
@@ -50,7 +55,7 @@
 "Red lacquer, hollow eyes, and a crown of riveted iron."
 ],
 [
-"L11r",
+"L11",
 "The Blue One Among Feathers",
 "A cobalt face under a crescent, flanked by veils of black feathers."
 ],
@@ -85,9 +90,14 @@
 "One blindfolded in red; one whose face is a gold crescent on blue."
 ],
 [
+"L18",
+"Crimson Crescent",
+"A red mask with a jaw of cloth under a steel crescent crest."
+],
+[
 "L18r",
-"Crimson Horned Crescent",
-"A red mask with a jaw of cloth and a steel crescent of horns."
+"Crimson Disc",
+"A red mask with a jaw of cloth before a steel disc."
 ],
 [
 "L19",
