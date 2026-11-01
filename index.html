@@ -191,19 +191,13 @@ const shown=O.filter(o=>!PO||o===PO);
 idx.innerHTML=O.map(o=>`<li><a href="${SEP[o.n]?'/order/'+o.n.toLowerCase():'/#o'+o.n}"><span class="rn">${o.n}</span><span class="nm">${o.name}<small>${o.mark.replace(/^Mark: /,'')}</small></span><span class="mono ${SEP[o.n]?'ext':'ct'}">${NW[o.k].length} works${SEP[o.n]?' · own page':''}</span></a></li>`).join("");
 rail.innerHTML=O.map(o=>`<a href="${PO?(o===PO?'#o'+o.n:(SEP[o.n]?'/order/'+o.n.toLowerCase():'/#o'+o.n)):'#o'+o.n}" data-n="${o.n}"><span>${o.name}</span><b>${o.n}</b></a>`).join("");
 if(PO){document.title=`Order ${PO.n} · ${PO.name} · Severed Signal`;const hero=document.querySelector(".hero");const c=NW[PO.k][0][0];hero.outerHTML=`<header class="ohero" id="top"><img src="img/v5/${c}.webp" alt=""><a class="mono" href="/#orders">← Index of the orders</a><h1 style="font-size:clamp(3.5rem,12vw,12.5rem)"><span><em>${PO.name}</em></span></h1><div class="band"></div></header>`;document.querySelector(".intro").remove();document.getElementById("orders").remove();document.getElementById("hymns").style.display="none";}
-shown.forEach((o,j)=>{const mode=PO?"page":(SEP[o.n]?"preview":"full");h+=`<section class="order" id="o${o.n}">`+head(o)+ng(o,mode)+`</section>`;
-if(j==0&&!PO)h+=`<section class="saint" id="saint"><div class="stick"><div class="prog"></div>
-<div class="layer w"><img src="img/v5/z-wide.webp" alt="Ring of Brass, wide"></div>
-<div class="layer p"><img src="img/v5/z-portrait.webp" alt="Ring of Brass, portrait"></div>
-<div class="layer m"><img src="img/v5/z-macro.webp" alt="Ring of Brass, close"></div>
-<div class="cap"><h3>Ring of Brass</h3><div class="steps mono"><span>01 Close — the red wrap</span><span>02 Portrait — the ring of gilded rays</span><span>03 Wide — the first of the Banded</span></div></div></div></section>`});
+shown.forEach((o,j)=>{const mode=PO?"page":(SEP[o.n]?"preview":"full");h+=`<section class="order" id="o${o.n}">`+head(o)+ng(o,mode)+`</section>`;});
 if(PO){const nx=O[(O.indexOf(PO)+1)%O.length];h+=`<section class="order" style="text-align:center"><a class="enter mono" href="/#orders">Back to the index</a> &nbsp; <a class="enter mono" href="${SEP[nx.n]?'/order/'+nx.n.toLowerCase():'/#o'+nx.n}">Order ${nx.n} · ${nx.name}</a></section>`}
 document.getElementById("g").innerHTML=h;
 const cnt=r=>{const g=r.parentElement.querySelector(".ng"),all=g.children.length,vis=g.querySelectorAll("figure:not(.hid)").length,m=r.querySelector(".more:not(.less)"),l=r.querySelector(".less");m.hidden=vis>=all;m.textContent=`show ${Math.min(STEP,all-vis)} more`;l.hidden=vis<=+r.dataset.first;r.querySelector("[data-c]").textContent=`${vis} / ${all}`};
 document.querySelectorAll(".more-row").forEach(r=>{const g=r.parentElement.querySelector(".ng");cnt(r);
 r.querySelector(".more:not(.less)").onclick=()=>{[...g.querySelectorAll(".hid")].slice(0,STEP).forEach(f=>{f.classList.remove("hid");f.classList.add("in")});cnt(r)};
 r.querySelector(".less").onclick=()=>{[...g.children].slice(+r.dataset.first).forEach(f=>f.classList.add("hid"));cnt(r);r.closest(".order").scrollIntoView({behavior:"smooth"})}});
-if(!PO)[["z-macro","Ring of Brass — close"],["z-portrait","Ring of Brass — portrait"],["z-wide","Ring of Brass"]].forEach(a=>L.push({src:"img/v5/"+a[0]+".webp",t:a[1],o:"The Banded",p:"A red-wrapped face under a ring of brass and a crown of curling horns.",n:"I"}));
 // rail: visible inside the gallery, marks current order
 const ras=[...rail.querySelectorAll("a")],secs=[...document.querySelectorAll(".order[id]")];
 let rIdle;addEventListener('scroll',()=>{rail.classList.remove('idle');clearTimeout(rIdle);rIdle=setTimeout(()=>rail.classList.add('idle'),1400)},{passive:true});const railUp=()=>{const g=document.getElementById("g").getBoundingClientRect();rail.classList.toggle("on",g.top<innerHeight*.5&&g.bottom>innerHeight*.5);let c=null;secs.forEach(s=>{if(s.getBoundingClientRect().top<innerHeight*.45)c=s.id.slice(1)});if(PO&&!c)c=PO.n;ras.forEach(a=>a.classList.toggle("cur",a.dataset.n==c))};
@@ -215,7 +209,6 @@ const lb=document.getElementById("lb");let cur=0;
 function show(i){cur=(i+L.length)%L.length;const x=L[cur];const im=document.getElementById("lbi");im.src=x.src||("img/"+x.s+".webp");im.alt=x.t;im.style.animation="none";im.offsetHeight;im.style.animation="";lbt.textContent=x.t;lbo.textContent=x.o;lbn.textContent=x.c?`${x.n} · ${x.j} / ${x.c}`:"";lbn.classList.toggle("edge",x.j==1);lbp.textContent=x.p;lb.classList.add("open");document.body.style.overflow="hidden"}
 function hide(){lb.classList.remove("open");document.body.style.overflow=""}
 document.querySelectorAll("figure").forEach(f=>f.onclick=()=>show(+f.dataset.i));
-document.querySelectorAll(".saint .layer").forEach((l,k)=>{l.style.cursor="zoom-in";l.onclick=()=>show(L.length-3+["m","p","w"].indexOf(l.classList[1])*1)});
 lbc.onclick=hide;lb.querySelector(".prev").onclick=()=>show(cur-1);lb.querySelector(".next").onclick=()=>show(cur+1);
 lb.onclick=e=>{if(e.target===lb)hide()};
 addEventListener("keydown",e=>{if(!lb.classList.contains("open"))return;if(e.key=="Escape")hide();if(e.key=="ArrowRight")show(cur+1);if(e.key=="ArrowLeft")show(cur-1)});
