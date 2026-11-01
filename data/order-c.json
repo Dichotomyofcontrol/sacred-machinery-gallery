@@ -1,192 +1,202 @@
 [
-[
-"L41",
-"The Black Bloom",
-"A face of black petals with one red eye at the heart."
-],
-[
-"L42",
-"Gilded Pair",
-"Two gilded faces wrapped in red cords."
-],
-[
-"L43",
-"The Banded Helm",
-"A helm of dark bands under a silver crescent."
-],
-[
-"L44",
-"Crescent in Red Velvet",
-"A great gold crescent across a face of black stone."
-],
-[
-"L45",
-"Two Horned Bands",
-"Two horned faces blindfolded in red."
-],
-[
-"L46",
-"The Clay Three",
-"Three faces of fired clay, each scored with rings."
-],
-[
-"L47",
-"The Violet Spiral",
-"A spiral of violet beads under a crown of thorns."
-],
-[
-"L48",
-"Sapphire Band",
-"Two stone faces in red hoods, a band of blue stones across each."
-],
-[
-"L49",
-"The Wrapped One",
-"A head bound in red thread and a single brass coin."
-],
-[
-"L50",
-"Two Spirals",
-"Two faces of bronze rings, turning inward."
-],
-[
-"L51",
-"Three Rings of Blood",
-"Three cracked faces, each marked with a red ring."
-],
-[
-"L52",
-"The Blue Lace",
-"A face of blue lace inside a ring of brass."
-],
-[
-"L53",
-"The Eclipse Band",
-"A gold band across the face and a stone moon behind."
-],
-[
-"L54",
-"Gold in Red",
-"A gold-flecked face cupped by a red crescent."
-],
-[
-"L55",
-"Three Red Spirals",
-"Three red spirals under three thin halos."
-],
-[
-"L56",
-"The Violet Moon",
-"A violet face crowned by a gold crescent."
-],
-[
-"L57",
-"Horns in Red",
-"A spiral face in red velvet, small horns rising."
-],
-[
-"L58",
-"Black Scales",
-"A face of black scales edged with brass."
-],
-[
-"L59",
-"The Coin",
-"A stone face with a red coin cradled by a gold crescent."
-],
-[
-"L60",
-"Blue Mesh and Horns",
-"A mesh face in blue velvet between pale horns."
-],
-[
-"Fc01",
-"The Red Coil",
-"A face wound in red thread, coiled to a gold centre."
-],
-[
-"Fc02",
-"The Stone Face",
-"A grey face of stone, set with small iron studs at the edge."
-],
-[
-"Fc04",
-"The Gold Scales",
-"A face of small gold scales inside a black hood."
-],
-[
-"Fc06",
-"Clay and Iron",
-"Two faces, one of red clay and one of grey iron."
-],
-[
-"Fc09",
-"Three Threads",
-"Three faces of wound thread: black, red and blue."
-],
-[
-"Fc10",
-"The Black Scales",
-"A face of black scales, edged with red cord."
-],
-[
-"Fc12",
-"The Black Fringe",
-"A face hidden by black threads hanging from a gold band."
-],
-[
-"Fc13",
-"Two Red Faces",
-"Two faces of red clay, one open-eyed, one asleep."
-],
-[
-"Fc14",
-"The Green Weave",
-"A face of green woven scale inside a red-corded hood."
-],
-[
-"Fc15",
-"The Red Studs",
-"A face of black cloth studded with red beads."
-],
-[
-"Fc16",
-"The Woven Dark",
-"A dark woven face with one blue stone at the brow."
-],
-[
-"Fc17",
-"Three Scales",
-"Three faces of scale and thread, iron, gold and red."
-],
-[
-"Fc18",
-"The Silver Scales",
-"A face of silver scales inside a red hood."
-],
-[
-"Fc19",
-"Two Red Webs",
-"Two faces of red thread webbing, in red hoods."
-],
-[
-"Fc27",
-"The Red Thread",
-"A face wound in red thread inside a blue hood."
-],
-[
-"Fc29",
-"Two Red Scales",
-"Two faces of red scale, one taller than the other."
-],
-[
-"Fc32",
-"Three Red Weaves",
-"Three faces of red woven thread, in black hoods."
-],
-[
-"Fc35",
-"The Red Mesh",
-"A face of red mesh in a blue-trimmed hood."
-]
+ [
+  "L41",
+  "The Black Bloom",
+  "A face of black petals with one red eye at the heart."
+ ],
+ [
+  "L42",
+  "Gilded Pair",
+  "Two gilded faces wrapped in red cords."
+ ],
+ [
+  "L43",
+  "The Banded Helm",
+  "A helm of dark bands under a silver crescent."
+ ],
+ [
+  "L44",
+  "Crescent in Red Velvet",
+  "A great gold crescent across a face of black stone."
+ ],
+ [
+  "L45",
+  "Two Horned Bands",
+  "Two horned faces blindfolded in red."
+ ],
+ [
+  "L46",
+  "The Clay Three",
+  "Three faces of fired clay, each scored with rings."
+ ],
+ [
+  "L47",
+  "The Violet Spiral",
+  "A spiral of violet beads under a crown of thorns."
+ ],
+ [
+  "L48",
+  "Sapphire Band",
+  "Two stone faces in red hoods, a band of blue stones across each."
+ ],
+ [
+  "L49",
+  "The Wrapped One",
+  "A head bound in red thread and a single brass coin."
+ ],
+ [
+  "L50",
+  "Two Spirals",
+  "Two faces of bronze rings, turning inward."
+ ],
+ [
+  "L51",
+  "Three Rings of Blood",
+  "Three cracked faces, each marked with a red ring."
+ ],
+ [
+  "L52",
+  "The Blue Lace",
+  "A face of blue lace inside a ring of brass."
+ ],
+ [
+  "L53",
+  "The Eclipse Band",
+  "A gold band across the face and a stone moon behind."
+ ],
+ [
+  "L54",
+  "Gold in Red",
+  "A gold-flecked face cupped by a red crescent."
+ ],
+ [
+  "L55",
+  "Three Red Spirals",
+  "Three red spirals under three thin halos."
+ ],
+ [
+  "L56",
+  "The Violet Moon",
+  "A violet face crowned by a gold crescent."
+ ],
+ [
+  "L57",
+  "Horns in Red",
+  "A spiral face in red velvet, small horns rising."
+ ],
+ [
+  "L58",
+  "Black Scales",
+  "A face of black scales edged with brass."
+ ],
+ [
+  "L59",
+  "The Coin",
+  "A stone face with a red coin cradled by a gold crescent."
+ ],
+ [
+  "L60",
+  "Blue Mesh and Horns",
+  "A mesh face in blue velvet between pale horns."
+ ],
+ [
+  "Fc01",
+  "The Red Coil",
+  "A face wound in red thread, coiled to a gold centre."
+ ],
+ [
+  "Fc02",
+  "The Stone Face",
+  "A grey face of stone, set with small iron studs at the edge."
+ ],
+ [
+  "Fc04",
+  "The Gold Scales",
+  "A face of small gold scales inside a black hood."
+ ],
+ [
+  "Fc06",
+  "Clay and Iron",
+  "Two faces, one of red clay and one of grey iron."
+ ],
+ [
+  "Fc09",
+  "Three Threads",
+  "Three faces of wound thread: black, red and blue."
+ ],
+ [
+  "Fc10",
+  "The Black Scales",
+  "A face of black scales, edged with red cord."
+ ],
+ [
+  "Fc12",
+  "The Black Fringe",
+  "A face hidden by black threads hanging from a gold band."
+ ],
+ [
+  "Fc13",
+  "Two Red Faces",
+  "Two faces of red clay, one open-eyed, one asleep."
+ ],
+ [
+  "Fc14",
+  "The Green Weave",
+  "A face of green woven scale inside a red-corded hood."
+ ],
+ [
+  "Fc15",
+  "The Red Studs",
+  "A face of black cloth studded with red beads."
+ ],
+ [
+  "Fc16",
+  "The Woven Dark",
+  "A dark woven face with one blue stone at the brow."
+ ],
+ [
+  "Fc17",
+  "Three Scales",
+  "Three faces of scale and thread, iron, gold and red."
+ ],
+ [
+  "Fc18",
+  "The Silver Scales",
+  "A face of silver scales inside a red hood."
+ ],
+ [
+  "Fc19",
+  "Two Red Webs",
+  "Two faces of red thread webbing, in red hoods."
+ ],
+ [
+  "Fc27",
+  "The Red Thread",
+  "A face wound in red thread inside a blue hood."
+ ],
+ [
+  "Fc29",
+  "Two Red Scales",
+  "Two faces of red scale, one taller than the other."
+ ],
+ [
+  "Fc32",
+  "Three Red Weaves",
+  "Three faces of red woven thread, in black hoods."
+ ],
+ [
+  "Fc35",
+  "The Red Mesh",
+  "A face of red mesh in a blue-trimmed hood."
+ ],
+ [
+  "Frc03",
+  "The Gilded Head",
+  "A gold face with a crescent at the brow and a red collar."
+ ],
+ [
+  "Frc04",
+  "The Cracked Gold",
+  "A gold face crazed like old leaf, a crescent at the brow."
+ ]
 ]
