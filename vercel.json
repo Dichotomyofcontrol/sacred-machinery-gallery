@@ -1,1 +1,1 @@
-{"cleanUrls":true,"rewrites":[{"source":"/order/:n","destination":"/index.html"}]}
+{"cleanUrls":true,"rewrites":[{"source":"/order/:n","destination":"/"}]}
