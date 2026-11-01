@@ -232,7 +232,7 @@ st.forEach((s,i)=>s.classList.toggle("on",i==(t<.27?0:t<.7?1:2)))}
 addEventListener("scroll",()=>requestAnimationFrame(saint),{passive:true});addEventListener("resize",saint);addEventListener("load",saint);new ResizeObserver(()=>requestAnimationFrame(saint)).observe(document.body);saint();
 // audio: tracklist + persistent player
 const au=new Audio();au.preload="none";let ti=-1;const R=["I","II","III","IV","V","VI","VII","VIII","IX","X","XI","XII","XIII","XIV","XV","XVI","XVII","XVIII","XIX","XX","XXI","XXII","XXIII","XXIV","XXV","XXVI"];
-tl.innerHTML=T.map((t,i)=>`<div class="tr" data-k="${i}"><span class="mono n">${String(i+1).padStart(2,"0")}</span><img loading="lazy" src="${t.c}" alt="${t.t} cover"><div><h3 class="trt">${t.t}</h3><span class="mono" style="opacity:.5">${i<6?t.g:"Cover · "+t.g}</span></div><span class="mono n">${t.d}</span></div>`).join("");
+tl.innerHTML=T.map((t,i)=>`<div class="tr" data-k="${i}"><span class="mono n">${String(i+1).padStart(2,"0")}</span><img loading="lazy" src="${t.c}" alt="${t.t} cover"><div><h3 class="trt">${t.t}</h3><span class="mono" style="opacity:.66">${i<6?t.g:"Cover · "+t.g}</span></div><span class="mono n">${t.d}</span></div>`).join("");
 const play=i=>{ti=(i+T.length)%T.length;const t=T[ti];au.src=t.s;au.play();plc.src=t.c;plt.textContent=t.t;pln.textContent="Hymn "+R[ti]+" of "+T.length;pl.classList.add("show");document.body.classList.add("pl-on")};
 tl.querySelectorAll(".tr").forEach(r=>r.onclick=()=>{const k=+r.dataset.k;if(k===ti){au.paused?au.play():au.pause()}else play(k)});
 plp.onclick=()=>play(ti-1);plx.onclick=()=>play(ti+1);plg.onclick=()=>au.paused?au.play():au.pause();
