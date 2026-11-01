@@ -1,17 +1,17 @@
 <!doctype html><html lang="en"><head><base href="/"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Severed Signal — A Cyber-Occult Liturgy</title>
+<title>Severed Signal: A Cyber-Occult Liturgy</title>
 <meta name="description" content="Severed Signal: a cyber-occult art series by Seth. A faith born after the networks went dark.">
 <meta name="theme-color" content="#07080a">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Severed Signal">
-<meta property="og:title" content="Severed Signal — A Cyber-Occult Liturgy">
+<meta property="og:title" content="Severed Signal: A Cyber-Occult Liturgy">
 <meta property="og:description" content="Severed Signal: a cyber-occult art series by Seth. A faith born after the networks went dark.">
 <meta property="og:url" content="https://severed-signal.vercel.app/">
 <meta property="og:image" content="https://severed-signal.vercel.app/og/home.jpg">
 <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Severed Signal — A Cyber-Occult Liturgy">
+<meta property="og:image:alt" content="Severed Signal: A Cyber-Occult Liturgy">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Severed Signal — A Cyber-Occult Liturgy">
+<meta name="twitter:title" content="Severed Signal: A Cyber-Occult Liturgy">
 <meta name="twitter:description" content="Severed Signal: a cyber-occult art series by Seth. A faith born after the networks went dark.">
 <meta name="twitter:image" content="https://severed-signal.vercel.app/og/home.jpg">
 <link rel="canonical" href="https://severed-signal.vercel.app/">
@@ -190,7 +190,7 @@ const head=o=>`<div class="ohead rev"><div class="num">${o.n}</div><div><span cl
 const shown=O.filter(o=>!PO||o===PO);
 idx.innerHTML=O.map(o=>`<li><a href="${SEP[o.n]?'/order/'+o.n.toLowerCase():'/#o'+o.n}"><span class="rn">${o.n}</span><span class="nm">${o.name}<small>${o.mark.replace(/^Mark: /,'')}</small></span><span class="mono ${SEP[o.n]?'ext':'ct'}">${NW[o.k].length} works${SEP[o.n]?' · own page':''}</span></a></li>`).join("");
 rail.innerHTML=O.map(o=>`<a href="${PO?(o===PO?'#o'+o.n:(SEP[o.n]?'/order/'+o.n.toLowerCase():'/#o'+o.n)):'#o'+o.n}" data-n="${o.n}"><span>${o.name}</span><b>${o.n}</b></a>`).join("");
-if(PO){document.title=`Order ${PO.n} · ${PO.name} — Severed Signal`;const hero=document.querySelector(".hero");const c=NW[PO.k][0][0];hero.outerHTML=`<header class="ohero" id="top"><img src="img/v5/${c}.webp" alt=""><a class="mono" href="/#orders">← Index of the orders</a><h1 style="font-size:clamp(3.5rem,12vw,12.5rem)"><span><em>${PO.name}</em></span></h1><div class="band"></div></header>`;document.querySelector(".intro").remove();document.getElementById("orders").remove();document.getElementById("hymns").style.display="none";}
+if(PO){document.title=`Order ${PO.n} · ${PO.name} · Severed Signal`;const hero=document.querySelector(".hero");const c=NW[PO.k][0][0];hero.outerHTML=`<header class="ohero" id="top"><img src="img/v5/${c}.webp" alt=""><a class="mono" href="/#orders">← Index of the orders</a><h1 style="font-size:clamp(3.5rem,12vw,12.5rem)"><span><em>${PO.name}</em></span></h1><div class="band"></div></header>`;document.querySelector(".intro").remove();document.getElementById("orders").remove();document.getElementById("hymns").style.display="none";}
 shown.forEach((o,j)=>{const mode=PO?"page":(SEP[o.n]?"preview":"full");h+=`<section class="order" id="o${o.n}">`+head(o)+ng(o,mode)+`</section>`;
 if(j==0&&!PO)h+=`<section class="saint" id="saint"><div class="stick"><div class="prog"></div>
 <div class="layer w"><img src="img/v5/z-wide.webp" alt="Ring of Brass, wide"></div>

@@ -33,7 +33,7 @@ card('img/v5/hero.webp',"Severed\nSignal","A faith born after the networks went 
 for n,(name,lore,first) in orders.items():
   card(f'img/v5/{first}.webp',name,f"Order {n} of the Severed Signal",f'og/order-{n.lower()}.jpg')
   p=s
-  title=f"Order {n} · {name} — Severed Signal";url=f"{BASE}/order/{n.lower()}";img=f"{BASE}/og/order-{n.lower()}.jpg"
+  title=f"Order {n} · {name} · Severed Signal";url=f"{BASE}/order/{n.lower()}";img=f"{BASE}/og/order-{n.lower()}.jpg"
   desc=lore.replace('&','&amp;')
   p=re.sub(r'<title>.*?</title>',f'<title>{title}</title>',p,1)
   for prop,val in [('og:title',title),('twitter:title',title),('og:image:alt',title),('og:description',desc),('twitter:description',desc),('og:url',url),('og:image',img),('twitter:image',img)]:
