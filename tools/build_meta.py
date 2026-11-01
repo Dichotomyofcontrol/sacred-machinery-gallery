@@ -18,7 +18,7 @@ def card(src,title,line,out):
   for i in range(1200):gd.line([(i,0),(i,630)],fill=int(235*max(0,1-i/760)))
   im=Image.composite(Image.new('RGB',im.size,(7,8,10)),im,g)
   d=ImageDraw.Draw(im);t=font('Cormorant Garamond',112);m=ImageFont.truetype(F+'JetBrains Mono/'+[f for f in os.listdir(F+'JetBrains Mono') if 'Italic' not in f][0],18)
-  d.text((64,70),"SEVERED SIGNAL  ·  AN ART SERIES BY SETH",font=m,fill=(236,230,218))
+  d.text((64,70),"SEVERED SIGNAL  ·  A CYBER-OCCULT ART SERIES",font=m,fill=(236,230,218))
   yy=300
   for i,part in enumerate(title.split('\n')):
     d.text((64+(90 if i else 0),yy-110+i*112),part,font=t,fill=(236,230,218) if i==0 else (230,57,70))
