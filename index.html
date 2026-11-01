@@ -124,6 +124,8 @@ footer .big{font-size:clamp(40px,10vw,160px);font-weight:300;font-style:italic;l
 .ohero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.35;filter:grayscale(.3);animation:breathe 14s ease-in-out infinite alternate;transform:scale(1.15)}
 .ohero:before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 20%,var(--ink));z-index:1}.ohero>*:not(img){position:relative;z-index:2}
 .ohero a{color:var(--bone)}
+@media(min-width:1101px){.order,.idx{padding-right:calc(4vw + 104px)}.rail{right:18px;padding:12px 10px 12px 6px;background:rgba(7,8,10,.62);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,.06)}.rail.on.idle:not(:hover){opacity:.4}}
+@media(max-width:1100px){.rail{right:auto;left:0;top:auto;bottom:0;transform:translateY(100%);flex-direction:row;justify-content:space-around;width:100%;background:rgba(7,8,10,.94);border-top:1px solid #222;padding:8px 2vw calc(8px + env(safe-area-inset-bottom))}.rail.on{transform:none}.rail a{flex-direction:column-reverse;gap:4px;font-size:15px}.rail a span{display:none}.rail a b{min-width:0;text-align:center}.rail a:after{width:10px}.rail a.cur:after{width:18px}body.pl-on .rail{bottom:68px}.order{padding-bottom:calc(12vh + 64px)}}
 @media(max-width:760px){
 .ng{grid-template-columns:1fr 1fr;gap:12px}
 .ng figcaption{font-size:15px;margin-top:6px}.ng figcaption small{display:none}
@@ -182,7 +184,7 @@ r.querySelector(".less").onclick=()=>{[...g.children].slice(+r.dataset.first).fo
 if(!PO)[["z-macro","Ring of Horns — close"],["z-portrait","Ring of Horns — portrait"],["z-wide","Ring of Horns"]].forEach(a=>L.push({src:"img/v5/"+a[0]+".webp",t:a[1],o:"The Banded",p:"A red-wrapped face under a ring of brass and a crown of curling horns.",n:"I"}));
 // rail: visible inside the gallery, marks current order
 const ras=[...rail.querySelectorAll("a")],secs=[...document.querySelectorAll(".order[id]")];
-const railUp=()=>{const g=document.getElementById("g").getBoundingClientRect();rail.classList.toggle("on",g.top<innerHeight*.5&&g.bottom>innerHeight*.5);let c=null;secs.forEach(s=>{if(s.getBoundingClientRect().top<innerHeight*.45)c=s.id.slice(1)});if(PO&&!c)c=PO.n;ras.forEach(a=>a.classList.toggle("cur",a.dataset.n==c))};
+let rIdle;addEventListener('scroll',()=>{rail.classList.remove('idle');clearTimeout(rIdle);rIdle=setTimeout(()=>rail.classList.add('idle'),1400)},{passive:true});const railUp=()=>{const g=document.getElementById("g").getBoundingClientRect();rail.classList.toggle("on",g.top<innerHeight*.5&&g.bottom>innerHeight*.5);let c=null;secs.forEach(s=>{if(s.getBoundingClientRect().top<innerHeight*.45)c=s.id.slice(1)});if(PO&&!c)c=PO.n;ras.forEach(a=>a.classList.toggle("cur",a.dataset.n==c))};
 addEventListener("scroll",()=>requestAnimationFrame(railUp),{passive:true});railUp();
 if(location.hash&&PO==null){const t=document.querySelector(location.hash);if(t){setTimeout(()=>t.scrollIntoView(),50);addEventListener('load',()=>t.scrollIntoView())}}
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}}),{threshold:.15});
