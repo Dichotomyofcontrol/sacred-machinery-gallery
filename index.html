@@ -184,7 +184,7 @@ if(!PO)[["z-macro","Ring of Horns — close"],["z-portrait","Ring of Horns — p
 const ras=[...rail.querySelectorAll("a")],secs=[...document.querySelectorAll(".order[id]")];
 const railUp=()=>{const g=document.getElementById("g").getBoundingClientRect();rail.classList.toggle("on",g.top<innerHeight*.5&&g.bottom>innerHeight*.5);let c=null;secs.forEach(s=>{if(s.getBoundingClientRect().top<innerHeight*.45)c=s.id.slice(1)});if(PO&&!c)c=PO.n;ras.forEach(a=>a.classList.toggle("cur",a.dataset.n==c))};
 addEventListener("scroll",()=>requestAnimationFrame(railUp),{passive:true});railUp();
-if(location.hash&&PO==null){const t=document.querySelector(location.hash);if(t)setTimeout(()=>t.scrollIntoView(),50)}
+if(location.hash&&PO==null){const t=document.querySelector(location.hash);if(t){setTimeout(()=>t.scrollIntoView(),50);addEventListener('load',()=>t.scrollIntoView())}}
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}}),{threshold:.15});
 document.querySelectorAll("figure,.rev").forEach(e=>io.observe(e));
 const lb=document.getElementById("lb");let cur=0;
