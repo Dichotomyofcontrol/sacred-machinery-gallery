@@ -1,202 +1,202 @@
 [
- [
-  "V01",
-  "The Red Face",
-  "A face of red lace inside a black hood."
- ],
- [
-  "V02",
-  "The Black Visor",
-  "A black visor and a red-lined hood. Her mouth gives nothing away."
- ],
- [
-  "V03",
-  "Red Eyes",
-  "Horns, a black face, and eyes that burn red."
- ],
- [
-  "V04",
-  "Three Unveiled",
-  "The helm, the grille and the horned one, side by side."
- ],
- [
-  "V05",
-  "The Silver Brim",
-  "A silver brim over the eyes and black lips below."
- ],
- [
-  "V06",
-  "Crimson Shadow",
-  "A red face in a red hood before a dark moon."
- ],
- [
-  "V07",
-  "Top Hat and Horns",
-  "One hides under a tall black hat; one shows his horns."
- ],
- [
-  "V08",
-  "The Mesh Blindfold",
-  "A blindfold of black mesh under a thin gold halo."
- ],
- [
-  "V09",
-  "Pale in Red",
-  "A pale face with small horns, hooded in red velvet."
- ],
- [
-  "V10",
-  "Three Hats",
-  "A red cowl, a wide silver hat, and a pale helm."
- ],
- [
-  "V11",
-  "The Red Spark",
-  "A dark face with one red spark and a gold halo."
- ],
- [
-  "V12",
-  "The Pale Circlet",
-  "White eyes and a band of steel. She has already seen you."
- ],
- [
-  "V13",
-  "The Black Hat",
-  "A black hat with a gold rim and a ring through the nose."
- ],
- [
-  "V14",
-  "Red Lace and Horns",
-  "A red lace face beside a horned one with burning eyes."
- ],
- [
-  "V15",
-  "Three Faces",
-  "A white mask, a stone mask, and a red face in shadow."
- ],
- [
-  "V16",
-  "The Dark Lenses",
-  "Dark lenses, a red face, and black horns."
- ],
- [
-  "V17",
-  "The Shadowed Halo",
-  "A face lost in shadow under a red hood and gold halo."
- ],
- [
-  "V18",
-  "The Hooded Red Eye",
-  "Horns under a hood and two red eyes in the dark."
- ],
- [
-  "V19",
-  "Brass Hat, Red Face",
-  "One under a brass hat; one with a face of red."
- ],
- [
-  "V20",
-  "The Red Blindfold",
-  "A red blindfold over pale skin and black lips."
- ],
- [
-  "Frf01",
-  "The Gold Tears",
-  "A chalk face in a red wrap, gold marks under the eyes."
- ],
- [
-  "Frf02",
-  "The Gilded Cheek",
-  "An obsidian face with gold marks across the cheeks."
- ],
- [
-  "Frf03",
-  "The Red Abbess",
-  "A red face under a black embroidered cap."
- ],
- [
-  "Frf05",
-  "The Two Witnesses",
-  "A chalk face and an obsidian face side by side."
- ],
- [
-  "Frf06",
-  "The Pale Novice",
-  "A chalk face in a black veil, eyes open."
- ],
- [
-  "Frf07",
-  "The Seam",
-  "A bald chalk head with a dark line down the chin."
- ],
- [
-  "Frf08",
-  "The Three Witnesses",
-  "Red, chalk and obsidian faces in a row."
- ],
- [
-  "Frf09",
-  "The Red Mitre",
-  "An obsidian face under a red and gold mitre."
- ],
- [
-  "Frf10",
-  "The Red Head",
-  "A bald red head with open eyes."
- ],
- [
-  "Frf13",
-  "The Grey Novice",
-  "A grey face in a red hood, eyes open."
- ],
- [
-  "Frf14",
-  "The Gold Bar",
-  "An obsidian face with a gold band across the eyes."
- ],
- [
-  "Frf15",
-  "The Ashen Widow",
-  "A chalk face with dark eyes under a black veil."
- ],
- [
-  "Frf16",
-  "The Red Veil",
-  "A red face in a black veil with a gold band."
- ],
- [
-  "Frf19",
-  "The Pale Lord",
-  "A chalk face with dark eyes and a gold collar."
- ],
- [
-  "Frf20",
-  "The Red Nun",
-  "A red face in a black wimple with gold mesh at the throat."
- ],
- [
-  "Frf21",
-  "The Gold Lines",
-  "An obsidian face scored with gold lines."
- ],
- [
-  "Frf22",
-  "The Silver Cap",
-  "A grey face under a red studded cap."
- ],
- [
-  "Frf23",
-  "The Combed Mark",
-  "A chalk face with dark streaks from the brow."
- ],
- [
-  "Frf24",
-  "The Scarred Red",
-  "A red face with marks across one cheek, in black armour."
- ],
- [
-  "Frf25",
-  "The Lace Veil",
-  "A chalk face with dark lines under black lace."
- ]
+[
+"V01",
+"The Red Face",
+"A face of red lace inside a black hood."
+],
+[
+"V02",
+"The Black Visor",
+"A black visor and a red-lined hood. Her mouth gives nothing away."
+],
+[
+"V03r",
+"The Black Saint",
+"A face of black lacquer, eyes closed, in a gold-edged hood."
+],
+[
+"V04r",
+"Three Unveiled",
+"A red face, a black face under a brass halo, and a third in shadow."
+],
+[
+"V05",
+"The Silver Brim",
+"A silver brim over the eyes and black lips below."
+],
+[
+"V06",
+"Crimson Shadow",
+"A red face in a red hood before a dark moon."
+],
+[
+"V07r",
+"The Mitre and the Band",
+"One under a black mitre, one under a band of silver."
+],
+[
+"V08",
+"The Mesh Blindfold",
+"A blindfold of black mesh under a thin gold halo."
+],
+[
+"V09r",
+"Pale in Red",
+"A pale face with black lips, hooded in red velvet edged in gold."
+],
+[
+"V10",
+"Three Hats",
+"A red cowl, a wide silver hat, and a pale helm."
+],
+[
+"V11",
+"The Red Spark",
+"A dark face with one red spark and a gold halo."
+],
+[
+"V12",
+"The Pale Circlet",
+"White eyes and a band of steel. She has already seen you."
+],
+[
+"V13",
+"The Black Hat",
+"A black hat with a gold rim and a ring through the nose."
+],
+[
+"V14r",
+"Red Lace and Gold",
+"A red lace face beside a black one banded in gold."
+],
+[
+"V15r",
+"Three Faces",
+"A white face, a stone face and a red face, each with a pendant."
+],
+[
+"V16r",
+"The Dark Lenses",
+"Dark round lenses on a red face in a gold-edged hood."
+],
+[
+"V17",
+"The Shadowed Halo",
+"A face lost in shadow under a red hood and gold halo."
+],
+[
+"V18r",
+"The Silver Collar",
+"A black face deep in a hood, a collar of worked silver."
+],
+[
+"V19",
+"Brass Hat, Red Face",
+"One under a brass hat; one with a face of red."
+],
+[
+"V20",
+"The Red Blindfold",
+"A red blindfold over pale skin and black lips."
+],
+[
+"Frf01",
+"The Gold Tears",
+"A chalk face in a red wrap, gold marks under the eyes."
+],
+[
+"Frf02",
+"The Gilded Cheek",
+"An obsidian face with gold marks across the cheeks."
+],
+[
+"Frf03",
+"The Red Abbess",
+"A red face under a black embroidered cap."
+],
+[
+"Frf05",
+"The Two Witnesses",
+"A chalk face and an obsidian face side by side."
+],
+[
+"Frf06",
+"The Pale Novice",
+"A chalk face in a black veil, eyes open."
+],
+[
+"Frf07",
+"The Seam",
+"A bald chalk head with a dark line down the chin."
+],
+[
+"Frf08",
+"The Three Witnesses",
+"Red, chalk and obsidian faces in a row."
+],
+[
+"Frf09",
+"The Red Mitre",
+"An obsidian face under a red and gold mitre."
+],
+[
+"Frf10",
+"The Red Head",
+"A bald red head with open eyes."
+],
+[
+"Frf13",
+"The Grey Novice",
+"A grey face in a red hood, eyes open."
+],
+[
+"Frf14",
+"The Gold Bar",
+"An obsidian face with a gold band across the eyes."
+],
+[
+"Frf15",
+"The Ashen Widow",
+"A chalk face with dark eyes under a black veil."
+],
+[
+"Frf16",
+"The Red Veil",
+"A red face in a black veil with a gold band."
+],
+[
+"Frf19",
+"The Pale Lord",
+"A chalk face with dark eyes and a gold collar."
+],
+[
+"Frf20",
+"The Red Nun",
+"A red face in a black wimple with gold mesh at the throat."
+],
+[
+"Frf21",
+"The Gold Lines",
+"An obsidian face scored with gold lines."
+],
+[
+"Frf22",
+"The Silver Cap",
+"A grey face under a red studded cap."
+],
+[
+"Frf23",
+"The Combed Mark",
+"A chalk face with dark streaks from the brow."
+],
+[
+"Frf24",
+"The Scarred Red",
+"A red face with marks across one cheek, in black armour."
+],
+[
+"Frf25",
+"The Lace Veil",
+"A chalk face with dark lines under black lace."
+]
 ]

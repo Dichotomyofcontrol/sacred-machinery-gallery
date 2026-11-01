@@ -1,202 +1,202 @@
 [
- [
-  "L01",
-  "The Iron Crown",
-  "A crown of black iron bars and a band of red cloth over the eyes."
- ],
- [
-  "L02",
-  "Moon and Halo",
-  "One wears a thin halo, the other a white skull marked with a crescent."
- ],
- [
-  "L03",
-  "The Red Veil Between",
-  "Two silent attendants flank a veil of red, strung with beads like a rosary of static."
- ],
- [
-  "L04",
-  "Ring of Horns",
-  "A red-wrapped face under a ring of brass and a crown of curling horns."
- ],
- [
-  "L05",
-  "The Gilded Face",
-  "A golden face, a fan of gold spikes, and red beads falling like rain."
- ],
- [
-  "L06",
-  "Two Black Skulls",
-  "Two of the order in black, one struck with a red crescent."
- ],
- [
-  "L07",
-  "The Horned Helm",
-  "A steel helm with horns between two violet sisters."
- ],
- [
-  "L08",
-  "Blue Halo",
-  "A black glass face and a halo of deep blue velvet."
- ],
- [
-  "L09",
-  "Porcelain and Garnet",
-  "White porcelain beside red lacquer, both blindfolded in red."
- ],
- [
-  "L10",
-  "The Red Mask",
-  "Red lacquer, hollow eyes, and a crown of riveted iron."
- ],
- [
-  "L11",
-  "The Blue One Among Feathers",
-  "A cobalt face under a crescent, flanked by veils of black feathers."
- ],
- [
-  "L12",
-  "The Bronze Eye",
-  "Bronze, a halo of etched rings, and one dark eye above the band."
- ],
- [
-  "L13",
-  "Spiral of Thread",
-  "A face wound in red thread inside a ring of brass."
- ],
- [
-  "L14",
-  "Violet Ruff",
-  "A black visor in a ruff of violet pleats, a red crescent at the mouth."
- ],
- [
-  "L15",
-  "The Crowned Between Stones",
-  "A gold-banded king between two pale stone faces."
- ],
- [
-  "L16",
-  "The Bead Crown",
-  "A silver band across the eyes and a crown of red beads."
- ],
- [
-  "L17",
-  "Blindfold and Crescent",
-  "One blindfolded in red; one whose face is a gold crescent on blue."
- ],
- [
-  "L18",
-  "Crimson Horned Crescent",
-  "A red mask with a jaw of cloth and a steel crescent of horns."
- ],
- [
-  "L19",
-  "Sun and Rings",
-  "A gold face in a sunburst beside a black face in rings of wire."
- ],
- [
-  "L20",
-  "Three Pins",
-  "Three blindfolded heads under crowns of black pins."
- ],
- [
-  "Fa02",
-  "Three Black Glass Faces",
-  "Three faces of black glass under three red bands, on oxblood."
- ],
- [
-  "Fa04",
-  "The Lattice Mask",
-  "A silver lattice mask with a red band across the eyes."
- ],
- [
-  "Fa05",
-  "Three White Faces",
-  "Three white faces in blue-lined hoods, each banded in red."
- ],
- [
-  "Fa07",
-  "The Gold Brow",
-  "A gold face and a gold band beneath a woven brass cap."
- ],
- [
-  "Fa10",
-  "Three Iron Grilles",
-  "Three faces of iron grille, each tied with red thread."
- ],
- [
-  "Fa11",
-  "The Blue Hood",
-  "A red band, a jewel at the brow and a curtain of beads below."
- ],
- [
-  "Fa13",
-  "Two Violet Faces",
-  "Two violet faces with red bands, in black hoods."
- ],
- [
-  "Fa15",
-  "The Garnet Band",
-  "A black face behind a band of red stones set in gold."
- ],
- [
-  "Fa16",
-  "Three Red Hoods",
-  "Three dark faces in red hoods, each with a band of silver."
- ],
- [
-  "Fa17",
-  "The Red Scales",
-  "A face of red scales cut by one black band."
- ],
- [
-  "Fa20",
-  "The Pewter Face",
-  "A pewter face with a thin red band across the eyes."
- ],
- [
-  "Fa21",
-  "Two Black Veils",
-  "Two veiled faces, each with a red band and a gold-edged hood."
- ],
- [
-  "Fa23",
-  "Three Gold Faces",
-  "Three gold faces in violet and red, bands over the eyes."
- ],
- [
-  "Fa25",
-  "The White Mask",
-  "A white mask with a copper band, and a chain at the throat."
- ],
- [
-  "Fa26",
-  "The Blue Band",
-  "A black glass face with a blue jewelled band, in a red hood."
- ],
- [
-  "Fa30",
-  "The Gold Fringe",
-  "A red band over the eyes and a fringe of gold coins below."
- ],
- [
-  "Fa32",
-  "The Red Velvet Face",
-  "A red velvet face with a band of black beads and one blue stone."
- ],
- [
-  "Fra01",
-  "The Caged Crown",
-  "A chalk face under an iron cage crown and a red band."
- ],
- [
-  "Fra02",
-  "The Banded Head",
-  "An obsidian face under a ringed iron crown with a red band."
- ],
- [
-  "Fra03",
-  "The Red Tithe",
-  "A red face under a thin iron crown."
- ]
+[
+"L01",
+"The Iron Crown",
+"A crown of black iron bars and a band of red cloth over the eyes."
+],
+[
+"L02",
+"Moon and Halo",
+"One wears a thin halo, the other a white skull marked with a crescent."
+],
+[
+"L03",
+"The Red Veil Between",
+"Two silent attendants flank a veil of red, strung with beads like a rosary of static."
+],
+[
+"L04r",
+"Ring of Brass",
+"A red-wrapped face under a ring of brass and a crown of gilded spikes."
+],
+[
+"L05",
+"The Gilded Face",
+"A golden face, a fan of gold spikes, and red beads falling like rain."
+],
+[
+"L06",
+"Two Black Skulls",
+"Two of the order in black, one struck with a red crescent."
+],
+[
+"L07",
+"The Horned Helm",
+"A steel helm with horns between two violet sisters."
+],
+[
+"L08",
+"Blue Halo",
+"A black glass face and a halo of deep blue velvet."
+],
+[
+"L09",
+"Porcelain and Garnet",
+"White porcelain beside red lacquer, both blindfolded in red."
+],
+[
+"L10",
+"The Red Mask",
+"Red lacquer, hollow eyes, and a crown of riveted iron."
+],
+[
+"L11",
+"The Blue One Among Feathers",
+"A cobalt face under a crescent, flanked by veils of black feathers."
+],
+[
+"L12",
+"The Bronze Eye",
+"Bronze, a halo of etched rings, and one dark eye above the band."
+],
+[
+"L13",
+"Spiral of Thread",
+"A face wound in red thread inside a ring of brass."
+],
+[
+"L14",
+"Violet Ruff",
+"A black visor in a ruff of violet pleats, a red crescent at the mouth."
+],
+[
+"L15r",
+"The Banded Between Stones",
+"A gold-crowned figure banded in red between two stone-grey faces."
+],
+[
+"L16",
+"The Bead Crown",
+"A silver band across the eyes and a crown of red beads."
+],
+[
+"L17",
+"Blindfold and Crescent",
+"One blindfolded in red; one whose face is a gold crescent on blue."
+],
+[
+"L18",
+"Crimson Horned Crescent",
+"A red mask with a jaw of cloth and a steel crescent of horns."
+],
+[
+"L19",
+"Sun and Rings",
+"A gold face in a sunburst beside a black face in rings of wire."
+],
+[
+"L20",
+"Three Pins",
+"Three blindfolded heads under crowns of black pins."
+],
+[
+"Fa02",
+"Three Black Glass Faces",
+"Three faces of black glass under three red bands, on oxblood."
+],
+[
+"Fa04",
+"The Lattice Mask",
+"A silver lattice mask with a red band across the eyes."
+],
+[
+"Fa05",
+"Three White Faces",
+"Three white faces in blue-lined hoods, each banded in red."
+],
+[
+"Fa07",
+"The Gold Brow",
+"A gold face and a gold band beneath a woven brass cap."
+],
+[
+"Fa10",
+"Three Iron Grilles",
+"Three faces of iron grille, each tied with red thread."
+],
+[
+"Fa11",
+"The Blue Hood",
+"A red band, a jewel at the brow and a curtain of beads below."
+],
+[
+"Fa13",
+"Two Violet Faces",
+"Two violet faces with red bands, in black hoods."
+],
+[
+"Fa15",
+"The Garnet Band",
+"A black face behind a band of red stones set in gold."
+],
+[
+"Fa16",
+"Three Red Hoods",
+"Three dark faces in red hoods, each with a band of silver."
+],
+[
+"Fa17",
+"The Red Scales",
+"A face of red scales cut by one black band."
+],
+[
+"Fa20",
+"The Pewter Face",
+"A pewter face with a thin red band across the eyes."
+],
+[
+"Fa21",
+"Two Black Veils",
+"Two veiled faces, each with a red band and a gold-edged hood."
+],
+[
+"Fa23",
+"Three Gold Faces",
+"Three gold faces in violet and red, bands over the eyes."
+],
+[
+"Fa25",
+"The White Mask",
+"A white mask with a copper band, and a chain at the throat."
+],
+[
+"Fa26",
+"The Blue Band",
+"A black glass face with a blue jewelled band, in a red hood."
+],
+[
+"Fa30",
+"The Gold Fringe",
+"A red band over the eyes and a fringe of gold coins below."
+],
+[
+"Fa32",
+"The Red Velvet Face",
+"A red velvet face with a band of black beads and one blue stone."
+],
+[
+"Fra01",
+"The Caged Crown",
+"A chalk face under an iron cage crown and a red band."
+],
+[
+"Fra02",
+"The Banded Head",
+"An obsidian face under a ringed iron crown with a red band."
+],
+[
+"Fra03",
+"The Red Tithe",
+"A red face under a thin iron crown."
+]
 ]

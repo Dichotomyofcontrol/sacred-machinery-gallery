@@ -1,74 +1,362 @@
 [
-["P17","The Ribbed Helm","A pointed helm of ribbed iron, threaded with red, on charcoal."],
-["P18","Red Seams","A dark face stitched with red under a black hood."],
-["P19","White Shell in Red","A white shell-like mask in a hood of deep red."],
-["P20","The Antlered One","A pale mask crowned with small antlers, red at the collar."],
-["P21","Three Threaded in Red","Three faceless hoods side by side, threaded in red."],
-["P22","The Barred Face","A face of black bars inside a black hood."],
-["P23","The Long Beak","A bronze beaked mask with a red cord, in a black hood."],
-["P24","Half and Half","A mask split white and black, a grille at the mouth."],
-["P25","The Gilded Vestment","A face of gold and red under a heavy gilded cowl."],
-["P26","Silver Brow","A black face with a silver crest at the brow."],
-["P27","Two Pale Faces","Two white masks in black hoods, side by side."],
-["P29","Gold with Red Cords","A gold mask with red veins, red cords falling from the chin."],
-["P30","The Tower Veil","A veil of black fringe falling from a tall crown."],
-["P31","Red Bars","A dark face of red bars in a black and red hood."],
-["P32","The Small Gold Mask","A small gold mask deep in a black hood."],
-["P33","White Cowl","A dark visor under a cowl of white."],
-["P34","Three Antlered","Three pale antlered masks in black."],
-["P35","The Wrapped Head","A head bound in black cloth, a red collar below, on oxblood."],
-["P36","Red Tracery","A black face traced with fine red lines."],
-["P37","Brass Visor","A brass visor of fine fringe in a black hood."],
-["P38","The Mesh Dome","A dome of silver mesh above a black collar."],
-["P39","The Sleeper","A pale face with closed eyes, its mouth bound in red."],
-["P41","Wheel of Rays","A pale mask before a great wheel of red and bone rays."],
-["P43","The Grey Helm","A grey mail hood over a black face, a jewelled collar at the throat."],
-["P44","The Bone Beak","A bone-white beaked mask in a pale hood."],
-["P45","Two With Red Lines","Two faceless hoods, each split by one red line."],
-["P46","Gold Mantle","A black figure in a mantle of gold, a red lantern at the chest."],
-["P48","Red Scales","A face of red scales in a black hood, a red cord below."],
-["P49","Three in Black","Three faceless figures in black, standing close."],
-["P50","The Bronze Coil","A coiled bronze headdress over a dark face."],
-["P51","The Breather","A black mask with a breathing grille, deep in a black hood."],
-["P52","Turban and Red Cloak","A dark face under a black turban, wrapped in red."],
-["P53","Crown of Needles","A black helm ringed with fine needles."],
-["P54","Horned White","A white horned mask over long black hair."],
-["P55","The Red Bead","A bronze mask in a red hood, a red bead at the chin."],
-["P56","White and Black","One figure in white, one in black, joined by a red cord."],
-["P57","The Silver Hood","A silver helm over a red mesh face."],
-["P58","The Ribbed Mask","A black ribbed face in a hood, on oxblood."],
-["P59","Gold on Red","A gold face in a cream hood, on charcoal."],
-["P60","Three in Red Hoods","Three bronze faces in hoods of red."],
-["P61","The Red Band","A pale face bound with a red band, on charcoal."],
-["P62","The Grated Visor","A black visor of fine grating under a grey hood."],
-["P63","Red Lining","A dark face of woven mesh in a black hood lined with red."],
-["P64","The Bronze Visor","A bronze visor in a red hood, a red cord at the chin."],
-["P65","White and Gold Vestment","A gold visor in a tall white and gold vestment."],
-["P66","The Silver Egg","A smooth silver face in a black hood."],
-["P67","Copper in Red","A copper face in a red hood."],
-["P68","Three Grey Sisters","Three pale masks in grey hoods."],
-["P69","The Bronze Coin","A bronze disc at the brow of a black face, a red stole below."],
-["P72","White on Oxblood","A pale hooded face, wrapped in white."],
-["P73","Black in Black","A black face in a black hood, faint tracery on the mask."],
-["P74","Gold Fringe in Cream","A gold fringe veil in a cream hood, on red."],
-["P75","The Red Seam","A dark face split by a faint red seam."],
-["P77","Copper Grid in Red","A copper grid face in a red hood."],
-["P78","Three With Gold Lines","Three faceless hoods marked with thin gold lines."],
-["P80","The Red Eye Plate","A red mask with a gold eye plate, wrapped in red cloth."],
-["P81","The Fringed Veil","A dark veiled face under a black hood, a red stole below."],
-["P83","The Carved Face","A carved bone face in a black hood."],
-["P85","Three Bronze Faces","Three bronze faces in red hoods."],
-["P86","The Black Shell","A black ribbed face in a studded hood."],
-["P87","Red Thread Veil","A veil of red thread falling over the face, in a black hood."],
-["P88","Ember Pendant","A black face in a hood, a red pendant at the throat."],
-["P95","Bronze at the Mouth","A dark veiled face with a bronze piece at the mouth."],
-["P98","Gold Under Red","A gold face in a red hood, gold brocade at the chest."],
-["P101","The Sleeping Gold","A gold face with closed eyes in a red hood."],
-["P102","Chain Veil in White","A veil of gold chain inside a white hood."],
-["P103","The Silver Bishop","A tall silver helm with a stern carved face."],
-["P105","Gold Thread Veil","A veil of gold thread in a red hood."],
-["P107","The Red Turban","A red-wrapped head with a brass mouthpiece and a red jewel."],
-["P108","The White Bust","A white sculpted face above a bronze collar."],
-["P110","Black and Red","Two veiled figures, one in black, one in red."],
-["P112","Gold Face, Red Hood","A gold face framed by a red hood and black veil."]
+[
+"P17",
+"The Ribbed Helm",
+"A pointed helm of ribbed iron, threaded with red, on charcoal."
+],
+[
+"P18",
+"Red Seams",
+"A dark face stitched with red under a black hood."
+],
+[
+"P19",
+"White Shell in Red",
+"A white shell-like mask in a hood of deep red."
+],
+[
+"P20r",
+"The Porcelain Brow",
+"A white porcelain mask under a gold circlet, a red cord at the throat."
+],
+[
+"P21",
+"Three Threaded in Red",
+"Three faceless hoods side by side, threaded in red."
+],
+[
+"P22",
+"The Barred Face",
+"A face of black bars inside a black hood."
+],
+[
+"P23",
+"The Long Beak",
+"A bronze beaked mask with a red cord, in a black hood."
+],
+[
+"P24",
+"Half and Half",
+"A mask split white and black, a grille at the mouth."
+],
+[
+"P25",
+"The Gilded Vestment",
+"A face of gold and red under a heavy gilded cowl."
+],
+[
+"P26",
+"Silver Brow",
+"A black face with a silver crest at the brow."
+],
+[
+"P27",
+"Two Pale Faces",
+"Two white masks in black hoods, side by side."
+],
+[
+"P29",
+"Gold with Red Cords",
+"A gold mask with red veins, red cords falling from the chin."
+],
+[
+"P30",
+"The Tower Veil",
+"A veil of black fringe falling from a tall crown."
+],
+[
+"P31",
+"Red Bars",
+"A dark face of red bars in a black and red hood."
+],
+[
+"P32",
+"The Small Gold Mask",
+"A small gold mask deep in a black hood."
+],
+[
+"P33",
+"White Cowl",
+"A dark visor under a cowl of white."
+],
+[
+"P34r",
+"The Three Veiled",
+"Three white masks under black veils, each with one red bead."
+],
+[
+"P35",
+"The Wrapped Head",
+"A head bound in black cloth, a red collar below, on oxblood."
+],
+[
+"P36",
+"Red Tracery",
+"A black face traced with fine red lines."
+],
+[
+"P37",
+"Brass Visor",
+"A brass visor of fine fringe in a black hood."
+],
+[
+"P38",
+"The Mesh Dome",
+"A dome of silver mesh above a black collar."
+],
+[
+"P39",
+"The Sleeper",
+"A pale face with closed eyes, its mouth bound in red."
+],
+[
+"P41",
+"Wheel of Rays",
+"A pale mask before a great wheel of red and bone rays."
+],
+[
+"P43",
+"The Grey Helm",
+"A grey mail hood over a black face, a jewelled collar at the throat."
+],
+[
+"P44",
+"The Bone Beak",
+"A bone-white beaked mask in a pale hood."
+],
+[
+"P45",
+"Two With Red Lines",
+"Two faceless hoods, each split by one red line."
+],
+[
+"P46",
+"Gold Mantle",
+"A black figure in a mantle of gold, a red lantern at the chest."
+],
+[
+"P48",
+"Red Scales",
+"A face of red scales in a black hood, a red cord below."
+],
+[
+"P49",
+"Three in Black",
+"Three faceless figures in black, standing close."
+],
+[
+"P50",
+"The Bronze Coil",
+"A coiled bronze headdress over a dark face."
+],
+[
+"P51",
+"The Breather",
+"A black mask with a breathing grille, deep in a black hood."
+],
+[
+"P52",
+"Turban and Red Cloak",
+"A dark face under a black turban, wrapped in red."
+],
+[
+"P53",
+"Crown of Needles",
+"A black helm ringed with fine needles."
+],
+[
+"P54r",
+"The Lined Mask",
+"A white mask lined in red over long black hair."
+],
+[
+"P55",
+"The Red Bead",
+"A bronze mask in a red hood, a red bead at the chin."
+],
+[
+"P56",
+"White and Black",
+"One figure in white, one in black, joined by a red cord."
+],
+[
+"P57",
+"The Silver Hood",
+"A silver helm over a red mesh face."
+],
+[
+"P58",
+"The Ribbed Mask",
+"A black ribbed face in a hood, on oxblood."
+],
+[
+"P59",
+"Gold on Red",
+"A gold face in a cream hood, on charcoal."
+],
+[
+"P60",
+"Three in Red Hoods",
+"Three bronze faces in hoods of red."
+],
+[
+"P61",
+"The Red Band",
+"A pale face bound with a red band, on charcoal."
+],
+[
+"P62",
+"The Grated Visor",
+"A black visor of fine grating under a grey hood."
+],
+[
+"P63",
+"Red Lining",
+"A dark face of woven mesh in a black hood lined with red."
+],
+[
+"P64",
+"The Bronze Visor",
+"A bronze visor in a red hood, a red cord at the chin."
+],
+[
+"P65",
+"White and Gold Vestment",
+"A gold visor in a tall white and gold vestment."
+],
+[
+"P66",
+"The Silver Egg",
+"A smooth silver face in a black hood."
+],
+[
+"P67",
+"Copper in Red",
+"A copper face in a red hood."
+],
+[
+"P68",
+"Three Grey Sisters",
+"Three pale masks in grey hoods."
+],
+[
+"P69",
+"The Bronze Coin",
+"A bronze disc at the brow of a black face, a red stole below."
+],
+[
+"P72",
+"White on Oxblood",
+"A pale hooded face, wrapped in white."
+],
+[
+"P73",
+"Black in Black",
+"A black face in a black hood, faint tracery on the mask."
+],
+[
+"P74",
+"Gold Fringe in Cream",
+"A gold fringe veil in a cream hood, on red."
+],
+[
+"P75",
+"The Red Seam",
+"A dark face split by a faint red seam."
+],
+[
+"P77",
+"Copper Grid in Red",
+"A copper grid face in a red hood."
+],
+[
+"P78",
+"Three With Gold Lines",
+"Three faceless hoods marked with thin gold lines."
+],
+[
+"P80",
+"The Red Eye Plate",
+"A red mask with a gold eye plate, wrapped in red cloth."
+],
+[
+"P81",
+"The Fringed Veil",
+"A dark veiled face under a black hood, a red stole below."
+],
+[
+"P83",
+"The Carved Face",
+"A carved bone face in a black hood."
+],
+[
+"P85",
+"Three Bronze Faces",
+"Three bronze faces in red hoods."
+],
+[
+"P86",
+"The Black Shell",
+"A black ribbed face in a studded hood."
+],
+[
+"P87",
+"Red Thread Veil",
+"A veil of red thread falling over the face, in a black hood."
+],
+[
+"P88",
+"Ember Pendant",
+"A black face in a hood, a red pendant at the throat."
+],
+[
+"P95",
+"Bronze at the Mouth",
+"A dark veiled face with a bronze piece at the mouth."
+],
+[
+"P98",
+"Gold Under Red",
+"A gold face in a red hood, gold brocade at the chest."
+],
+[
+"P101",
+"The Sleeping Gold",
+"A gold face with closed eyes in a red hood."
+],
+[
+"P102",
+"Chain Veil in White",
+"A veil of gold chain inside a white hood."
+],
+[
+"P103",
+"The Silver Bishop",
+"A tall silver helm with a stern carved face."
+],
+[
+"P105",
+"Gold Thread Veil",
+"A veil of gold thread in a red hood."
+],
+[
+"P107",
+"The Red Turban",
+"A red-wrapped head with a brass mouthpiece and a red jewel."
+],
+[
+"P108",
+"The White Bust",
+"A white sculpted face above a bronze collar."
+],
+[
+"P110",
+"Black and Red",
+"Two veiled figures, one in black, one in red."
+],
+[
+"P112",
+"Gold Face, Red Hood",
+"A gold face framed by a red hood and black veil."
+]
 ]

@@ -1,202 +1,202 @@
 [
- [
-  "M01",
-  "The Horned One",
-  "Black horns, black skin and red eyes in a black hood."
- ],
- [
-  "M02",
-  "The Spiked Visor",
-  "A visor of black spikes over a pale face."
- ],
- [
-  "M03",
-  "The Faceless",
-  "A hood with only shadow inside."
- ],
- [
-  "M04b",
-  "The Court of Three",
-  "A crowned queen, a horned king and a pale attendant, hung with pendants."
- ],
- [
-  "M05",
-  "Red Hood, White Eyes",
-  "Pale skin, burning eyes and horns in a red hood."
- ],
- [
-  "M06",
-  "The Red Horned and the Brim",
-  "A red-skinned horned one beside a figure hidden by a wide brim."
- ],
- [
-  "M07",
-  "The Thorn Circlet",
-  "A circlet of thorns and a black lace mask over red skin."
- ],
- [
-  "M08",
-  "The Faceless Halo",
-  "A red hood, small horns, a gold halo and no face at all."
- ],
- [
-  "M09b",
-  "The Pendants",
-  "Three in black: the pale, the horned and the red, hung with pendants."
- ],
- [
-  "M10",
-  "The Tall Hat",
-  "A tall black hat over the eyes and black lips below."
- ],
- [
-  "Fg12",
-  "The Black King",
-  "A black face under a spiked gold crown."
- ],
- [
-  "Fg14",
-  "The Red King",
-  "A red face under a crown of silver points."
- ],
- [
-  "Fg19",
-  "Two Gold Kings",
-  "Two gold faces under gold crowns, in red."
- ],
- [
-  "Fg21",
-  "The Antlered Mask",
-  "A black mask under black antlers hung with red tassels."
- ],
- [
-  "Fg27",
-  "The Bronze Ram",
-  "A bronze head with ram horns and closed eyes."
- ],
- [
-  "Frg01",
-  "The Black Ram",
-  "An obsidian head with short curved horns."
- ],
- [
-  "Frg02",
-  "The Pale King",
-  "A chalk face under a spiked gold crown."
- ],
- [
-  "Frg03",
-  "The Red Ram",
-  "A red face under silver ram horns."
- ],
- [
-  "Frg04",
-  "The Laurel",
-  "A grey face under a gold laurel."
- ],
- [
-  "Frg06",
-  "The Horned Pair",
-  "An obsidian face and a chalk face, both horned."
- ],
- [
-  "Frg08",
-  "The Antlered Bride",
-  "A chalk face under black antlers."
- ],
- [
-  "Frg09",
-  "The Silver Crescent",
-  "An obsidian face under a silver crescent horn."
- ],
- [
-  "Frg10",
-  "The Grey Horns",
-  "A grey face under curved grey horns."
- ],
- [
-  "Frg11",
-  "The Red Court",
-  "A red crowned face between two pale attendants."
- ],
- [
-  "Frg12",
-  "The Bronze Lord",
-  "A bronze head with short horns and an emerald."
- ],
- [
-  "Frg13",
-  "The Red Spikes",
-  "An obsidian face under a red and gold crown."
- ],
- [
-  "Frg14",
-  "The Pale Ram",
-  "A chalk face under long curved horns."
- ],
- [
-  "Frg15",
-  "The Silver Spikes",
-  "A red face under a silver spiked crown."
- ],
- [
-  "Frg16",
-  "The Steel King",
-  "A steel face under a dark crown."
- ],
- [
-  "Frg17",
-  "The Grey Lady",
-  "A grey face with small horns and a red collar."
- ],
- [
-  "Frg18",
-  "The Crowned Pair",
-  "An obsidian face and a grey face under gold crowns."
- ],
- [
-  "Frg19",
-  "The Black Horns",
-  "An obsidian face under black horns."
- ],
- [
-  "Frg20",
-  "The Iron Spikes",
-  "A chalk face under a black spiked crown."
- ],
- [
-  "Frg21",
-  "The Gold Horns",
-  "A gold head with dark horns."
- ],
- [
-  "Frg22",
-  "The Great Ram",
-  "A red face between great black horns."
- ],
- [
-  "Frg23",
-  "The Jewelled Crown",
-  "A chalk face under a jewelled silver crown."
- ],
- [
-  "Frg24",
-  "The Small Horns",
-  "An obsidian face with small horns and a gold collar."
- ],
- [
-  "Frg27",
-  "The Red Antlers",
-  "A red face under black antlers."
- ],
- [
-  "Frg28",
-  "The Thorned Lady",
-  "A chalk face under a thin horned circlet."
- ],
- [
-  "Frg29",
-  "The Iron Lord",
-  "A steel face under a gold crown."
- ]
+[
+"M01r",
+"The Filigree Crown",
+"Black lacquer skin under a silver filigree crown, a garnet at the throat."
+],
+[
+"M02",
+"The Spiked Visor",
+"A visor of black spikes over a pale face."
+],
+[
+"M03",
+"The Faceless",
+"A hood with only shadow inside."
+],
+[
+"M04br",
+"The Court of Three",
+"A queen in gold, a king in iron and a pale attendant, hung with garnets."
+],
+[
+"M05r",
+"The Stone King",
+"A granite face under a crown of gold points, a sun medallion below."
+],
+[
+"M06r",
+"The Red Crowned",
+"A crimson face in a black hood under a slim gold crown."
+],
+[
+"M07",
+"The Thorn Circlet",
+"A circlet of thorns and a black lace mask over red skin."
+],
+[
+"M08r",
+"The Twin Crowns",
+"Two chalk faces under blackened silver crowns, hung with pendants."
+],
+[
+"M09br",
+"The Gold King and Two",
+"A black king in gold between two pale attendants in silver."
+],
+[
+"M10",
+"The Tall Hat",
+"A tall black hat over the eyes and black lips below."
+],
+[
+"Fg12",
+"The Black King",
+"A black face under a spiked gold crown."
+],
+[
+"Fg14",
+"The Red King",
+"A red face under a crown of silver points."
+],
+[
+"Fg19",
+"Two Gold Kings",
+"Two gold faces under gold crowns, in red."
+],
+[
+"Fg21",
+"The Antlered Mask",
+"A black mask under black antlers hung with red tassels."
+],
+[
+"Fg27r",
+"The Cameo",
+"A silver face under a crown of black pearls, a jet cameo at the breast."
+],
+[
+"Frg01r",
+"The Gold Laurel",
+"A chalk face under gold leaves, an amber pendant on a long chain."
+],
+[
+"Frg02",
+"The Pale King",
+"A chalk face under a spiked gold crown."
+],
+[
+"Frg03r",
+"The Obsidian",
+"A face of black glass under a band of hammered gold and garnets."
+],
+[
+"Frg04",
+"The Laurel",
+"A grey face under a gold laurel."
+],
+[
+"Frg06r",
+"The Iron Pair",
+"Two stone faces under iron crowns, each with one onyx pendant."
+],
+[
+"Frg08r",
+"The Pearl Tiara",
+"A crimson face under a silver tiara of pearls."
+],
+[
+"Frg09",
+"The Silver Crescent",
+"An obsidian face under a silver crescent horn."
+],
+[
+"Frg10r",
+"The Enamel Crown",
+"A chalk face under gold and black enamel, hung with gold drops."
+],
+[
+"Frg11",
+"The Red Court",
+"A red crowned face between two pale attendants."
+],
+[
+"Frg12r",
+"Three Circlets",
+"Black, white and stone faces under three thin silver circlets."
+],
+[
+"Frg13",
+"The Red Spikes",
+"An obsidian face under a red and gold crown."
+],
+[
+"Frg14r",
+"The Bronze Veil",
+"A bronze face veiled in black under a crown of gold arches."
+],
+[
+"Frg15",
+"The Silver Spikes",
+"A red face under a silver spiked crown."
+],
+[
+"Frg16",
+"The Steel King",
+"A steel face under a dark crown."
+],
+[
+"Frg17r",
+"The Pearl Strings",
+"A chalk face under a high gold crown hung with pearls."
+],
+[
+"Frg18",
+"The Crowned Pair",
+"An obsidian face and a grey face under gold crowns."
+],
+[
+"Frg19r",
+"The Bells",
+"A black lacquer face under silver spires, a collar of silver bells."
+],
+[
+"Frg20",
+"The Iron Spikes",
+"A chalk face under a black spiked crown."
+],
+[
+"Frg21r",
+"The Two Kings",
+"Two stone faces, one crowned in gold, one in silver."
+],
+[
+"Frg22r",
+"The Iron Arches",
+"A red face under an iron crown, a black pearl at the throat."
+],
+[
+"Frg23",
+"The Jewelled Crown",
+"A chalk face under a jewelled silver crown."
+],
+[
+"Frg24r",
+"The Lace Diadem",
+"A chalk face under black lace and a gold diadem hung with jet."
+],
+[
+"Frg27r",
+"Three Gold Bands",
+"Three ash-grey faces under plain gold bands, each with a medallion."
+],
+[
+"Frg28r",
+"The Onyx Crown",
+"A silver face under a crown of onyx, a chain of medallions below."
+],
+[
+"Frg29",
+"The Iron Lord",
+"A steel face under a gold crown."
+]
 ]
