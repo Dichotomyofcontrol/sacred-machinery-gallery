@@ -45,7 +45,7 @@ figure:hover img{filter:none;transform:scale(1.03)}
 figcaption{display:flex;justify-content:space-between;gap:12px;margin-top:12px;font-size:22px}
 figcaption small{opacity:.55}
 .w-a{grid-column:1/8}.w-b{grid-column:9/13;margin-top:20vh}.w-c{grid-column:3/11}.w-d{grid-column:2/7}.w-e{grid-column:7/13;margin-top:12vh}.w-full{grid-column:1/13}
-.saint{height:150vh;position:relative}
+.saint{height:260vh;position:relative}
 .saint .stick{position:sticky;top:0;height:100svh;overflow:hidden;display:flex;align-items:center;justify-content:center}
 .saint .layer{position:absolute;inset:0;will-change:transform,opacity}
 .saint .layer img{width:100%;height:100%;object-fit:cover}
@@ -201,11 +201,11 @@ const S=document.getElementById("saint")||document.createElement("div"),m=S.quer
 const cl=(v,a=0,b=1)=>Math.min(b,Math.max(a,v));
 function saint(){if(!S.isConnected)return;const r=S.getBoundingClientRect(),t=cl(-r.top/(r.height-innerHeight));pr.style.width=t*100+"%";
 const a=cl((t-.12)/.3),b=cl((t-.55)/.3);
-m.style.transform=`scale(${1+a*2.2})`;m.style.opacity=1-a;
-p.style.transform=`scale(${1.6-a*.6+b*1.6})`;p.style.opacity=b?1-b:1;
-w.style.transform=`scale(${1.5-b*.5})`;
+m.style.transform=`scale(${1.12-.12*cl(t/.45)})`;m.style.opacity=1-a;
+p.style.transform=`scale(${1.1-.1*cl(t/.85)})`;p.style.opacity=1-b;
+w.style.transform=`scale(${1.08-.08*t})`;
 st.forEach((s,i)=>s.classList.toggle("on",i==(t<.27?0:t<.7?1:2)))}
-addEventListener("scroll",()=>requestAnimationFrame(saint),{passive:true});saint();
+addEventListener("scroll",()=>requestAnimationFrame(saint),{passive:true});addEventListener("resize",saint);addEventListener("load",saint);new ResizeObserver(()=>requestAnimationFrame(saint)).observe(document.body);saint();
 // audio: tracklist + persistent player
 const au=new Audio();au.preload="none";let ti=-1;const R=["I","II","III","IV","V","VI","VII","VIII","IX","X","XI","XII","XIII","XIV","XV","XVI","XVII","XVIII","XIX","XX","XXI","XXII","XXIII","XXIV","XXV","XXVI"];
 tl.innerHTML=T.map((t,i)=>`<div class="tr" data-k="${i}"><span class="mono n">${String(i+1).padStart(2,"0")}</span><img loading="lazy" src="${t.c}" alt="${t.t} cover"><div><h4>${t.t}</h4><span class="mono" style="opacity:.5">${i<6?t.g:"Cover · "+t.g}</span></div><span class="mono n">${t.d}</span></div>`).join("");
