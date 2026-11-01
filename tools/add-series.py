@@ -19,7 +19,7 @@ for i,_,_ in items:
     if not os.path.exists(f): f=f'{src}/{i}.jpg'
     im=Image.open(f).convert('RGB')
     im.resize((1280,720),Image.LANCZOS).save(out,'WEBP',quality=82,method=6)
-    im.resize((640,360),Image.LANCZOS).save(f'img/v5/t/{i}.webp','WEBP',quality=78,method=6)
+    im.resize((640,360),Image.LANCZOS).save(f'img/v5/t/{i}.webp','WEBP',quality=80,method=6)
 h=open('index.html').read()
 a=h.index('const NW=')+len('const NW=')
 NW,n=json.JSONDecoder().raw_decode(h,a); NW[key]=items
