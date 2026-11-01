@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://severed-signal.vercel.app/sitemap.xml
