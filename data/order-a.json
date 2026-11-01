@@ -15,6 +15,11 @@
 "Two silent attendants flank a veil of red, strung with beads like a rosary of static."
 ],
 [
+"L04",
+"Ring of Horns",
+"A red-wrapped face under a ring of brass and a crown of curling horns."
+],
+[
 "L04r",
 "Ring of Brass",
 "A red-wrapped face under a ring of brass and a crown of gilded spikes."
@@ -45,6 +50,11 @@
 "White porcelain beside red lacquer, both blindfolded in red."
 ],
 [
+"L09r",
+"Porcelain and Garnet",
+"White porcelain beside red lacquer under a gold ring, both blindfolded in red."
+],
+[
 "L10",
 "The Red Mask",
 "Red lacquer, hollow eyes, and a crown of riveted iron."
@@ -70,6 +80,11 @@
 "A black visor in a ruff of violet pleats, a red crescent at the mouth."
 ],
 [
+"L15",
+"The Crowned Between Stones",
+"A gold-banded king between two pale stone faces."
+],
+[
 "L15r",
 "The Banded Between Stones",
 "A gold-crowned figure banded in red between two stone-grey faces."
@@ -86,8 +101,13 @@
 ],
 [
 "L18",
-"Crimson Horned Crescent",
-"A red mask with a jaw of cloth and a steel crescent of horns."
+"Crimson Crescent",
+"A red mask with a jaw of cloth under a steel crescent crest."
+],
+[
+"L18r",
+"Crimson Disc",
+"A red mask with a jaw of cloth before a steel disc."
 ],
 [
 "L19",
